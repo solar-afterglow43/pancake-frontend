@@ -6,7 +6,7 @@ import useI18n from 'hooks/useI18n'
 import BigNumber from 'bignumber.js'
 import { QuoteToken } from 'config/constants/types'
 import { useFarms, usePriceBnbBusd } from 'state/hooks'
-import { BLOCKS_PER_YEAR, CAKE_PER_BLOCK, CAKE_POOL_PID } from 'config'
+import { BLOCKS_PER_YEAR, CAKE_PER_BLOCK, CAKE_POOL_PID } from '../../../config/index'
 
 const StyledFarmStakingCard = styled(Card)`
   margin-left: auto;
@@ -80,7 +80,7 @@ const EarnAPYCard = () => {
         <Heading color="contrast" size="lg">
           Earn up to
         </Heading>
-        <CardMidContent color="#7645d9">
+        <CardMidContent color="#f75e05">
           {getHighestAPY() ? (
             `${getHighestAPY()}% ${TranslateString(736, 'APR')}`
           ) : (

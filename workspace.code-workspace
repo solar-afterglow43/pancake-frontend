@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../pancake-swap-interface"
+		},
+		{
+			"path": "../pancake-farm"
+		},
+		{
+			"path": "../pancake-swap-core"
+		},
+		{
+			"path": "../pancake-info"
+		},
+		{
+			"path": "../pancake-uikit"
+		}
+	],
+	"settings": {
+		"typescript.preferences.importModuleSpecifier": "relative"
+	}
+}
