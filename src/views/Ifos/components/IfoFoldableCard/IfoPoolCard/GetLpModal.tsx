@@ -1,6 +1,6 @@
 import React from 'react'
 import { Modal, ModalBody, Text, Image, Button, Link, OpenNewIcon } from '@pancakeswap/uikit'
-import { BASE_ADD_LIQUIDITY_URL } from 'config'
+import { BASE_ADD_LIQUIDITY_URL } from 'config/index'
 import { Token } from 'config/constants/types'
 import { useTranslation } from 'contexts/Localization'
 

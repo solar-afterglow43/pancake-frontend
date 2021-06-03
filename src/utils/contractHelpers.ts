@@ -50,7 +50,7 @@ import easterNftAbi from 'config/abi/easterNft.json'
 import cakeVaultAbi from 'config/abi/cakeVault.json'
 import predictionsAbi from 'config/abi/predictions.json'
 import chainlinkOracleAbi from 'config/abi/chainlinkOracle.json'
-import { DEFAULT_GAS_PRICE } from 'config'
+import { DEFAULT_GAS_PRICE } from 'config/index'
 import { getSettings, getGasPriceInWei } from './settings'
 
 const getContract = (abi: any, address: string, web3?: Web3, account?: string) => {

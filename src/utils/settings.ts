@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js'
-import { DEFAULT_GAS_PRICE } from 'config'
+import { DEFAULT_GAS_PRICE } from 'config/index'
 import { getDecimalAmount } from './formatBalance'
 
 export interface UserSettings {

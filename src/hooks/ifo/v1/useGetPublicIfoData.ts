@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback } from 'react'
 import BigNumber from 'bignumber.js'
-import { BSC_BLOCK_TIME } from 'config'
+import { BSC_BLOCK_TIME } from 'config/index'
 import { Ifo, IfoStatus, PoolIds } from 'config/constants/types'
 import { useBlock, useLpTokenPrice } from 'state/hooks'
 import { useIfoV1Contract } from 'hooks/useContract'

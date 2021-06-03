@@ -15,7 +15,7 @@ import {
   AutoRenewIcon,
 } from '@pancakeswap/uikit'
 import BigNumber from 'bignumber.js'
-import { DEFAULT_TOKEN_DECIMAL } from 'config'
+import { DEFAULT_TOKEN_DECIMAL } from 'config/index'
 import { useWeb3React } from '@web3-react/core'
 import { useGetMinBetAmount } from 'state/hooks'
 import { useTranslation } from 'contexts/Localization'

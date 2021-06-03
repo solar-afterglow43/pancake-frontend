@@ -59,6 +59,7 @@ export const useTotalSupply = () => {
     async function fetchTotalSupply() {
       const cakeContract = getCakeContract()
       const supply = await cakeContract.methods.totalSupply().call()
+      console.log('==== supply', supply)
       setTotalSupply(new BigNumber(supply))
     }
 
@@ -75,8 +76,10 @@ export const useBurnedBalance = (tokenAddress: string) => {
 
   useEffect(() => {
     const fetchBalance = async () => {
+      console.log('==== tokenAddress ', tokenAddress)
       const contract = getBep20Contract(tokenAddress, web3)
       const res = await contract.methods.balanceOf('0x000000000000000000000000000000000000dEaD').call()
+      console.log('==== fetchBalance res ',res)
       setBalance(new BigNumber(res))
     }
 

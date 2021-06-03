@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import BigNumber from 'bignumber.js'
 import { useWeb3React } from '@web3-react/core'
-import { DEFAULT_GAS_LIMIT } from 'config'
+import { DEFAULT_GAS_LIMIT } from 'config/index'
 import styled from 'styled-components'
 import { Modal, Text, Flex, Button, HelpIcon, AutoRenewIcon, useTooltip } from '@pancakeswap/uikit'
 import { getBalanceNumber } from 'utils/formatBalance'

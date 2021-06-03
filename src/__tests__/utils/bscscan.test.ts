@@ -1,4 +1,4 @@
-import { BASE_BSC_SCAN_URL } from 'config'
+import { BASE_BSC_SCAN_URL } from 'config/index'
 import {
   getBscScanAddressUrl,
   getBscScanTransactionUrl,

@@ -14,7 +14,7 @@ import {
   useTooltip,
   Button,
 } from '@pancakeswap/uikit'
-import { BASE_BSC_SCAN_URL, BASE_URL } from 'config'
+import { BASE_BSC_SCAN_URL, BASE_URL } from 'config/index'
 import { useBlock, useCakeVault } from 'state/hooks'
 import { Pool } from 'state/types'
 import { getAddress, getCakeVaultAddress } from 'utils/addressHelpers'

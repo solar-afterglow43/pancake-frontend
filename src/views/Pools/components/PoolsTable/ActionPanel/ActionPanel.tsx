@@ -13,7 +13,7 @@ import {
   TimerIcon,
   useTooltip,
 } from '@pancakeswap/uikit'
-import { BASE_URL } from 'config'
+import { BASE_URL } from 'config/index'
 import { getBscScanBlockCountdownUrl } from 'utils/bscscan'
 import { useBlock, useCakeVault } from 'state/hooks'
 import BigNumber from 'bignumber.js'

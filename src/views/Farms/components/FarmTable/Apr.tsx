@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import ApyButton from 'views/Farms/components/FarmCard/ApyButton'
 import { Address } from 'config/constants/types'
 import BigNumber from 'bignumber.js'
-import { BASE_ADD_LIQUIDITY_URL } from 'config'
+import { BASE_ADD_LIQUIDITY_URL } from 'config/index'
 import getLiquidityUrlPathParts from 'utils/getLiquidityUrlPathParts'
 import { Skeleton } from '@pancakeswap/uikit'
 

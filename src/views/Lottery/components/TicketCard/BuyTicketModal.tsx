@@ -7,7 +7,7 @@ import TicketInput from 'components/TicketInput'
 import ModalActions from 'components/ModalActions'
 import { useMultiBuyLottery, useMaxNumber } from 'hooks/useBuyLottery'
 import { useTranslation } from 'contexts/Localization'
-import { LOTTERY_MAX_NUMBER_OF_TICKETS, LOTTERY_TICKET_PRICE } from 'config'
+import { LOTTERY_MAX_NUMBER_OF_TICKETS, LOTTERY_TICKET_PRICE } from 'config/index'
 
 interface BuyTicketModalProps {
   max: BigNumber

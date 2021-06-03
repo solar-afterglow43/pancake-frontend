@@ -2,7 +2,7 @@ import React, { createContext, useEffect, useMemo, useReducer } from 'react'
 import BigNumber from 'bignumber.js'
 import { useWeb3React } from '@web3-react/core'
 import { getBunnyFactoryContract } from 'utils/contractHelpers'
-import { DEFAULT_TOKEN_DECIMAL } from 'config'
+import { DEFAULT_TOKEN_DECIMAL } from 'config/index'
 import { MINT_COST, REGISTER_COST, ALLOWANCE_MULTIPLIER } from '../config'
 import { Actions, State, ContextType } from './types'
 

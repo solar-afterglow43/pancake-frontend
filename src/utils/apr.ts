@@ -1,5 +1,5 @@
 import BigNumber from 'bignumber.js'
-import { BLOCKS_PER_YEAR, CAKE_PER_YEAR } from 'config'
+import { BLOCKS_PER_YEAR, CAKE_PER_YEAR } from 'config/index'
 
 /**
  * Get the APR value in %

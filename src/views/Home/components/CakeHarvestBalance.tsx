@@ -6,7 +6,7 @@ import { useTranslation } from 'contexts/Localization'
 import useAllEarnings from 'hooks/useAllEarnings'
 import { usePriceCakeBusd } from 'state/hooks'
 import styled from 'styled-components'
-import { DEFAULT_TOKEN_DECIMAL } from 'config'
+import { DEFAULT_TOKEN_DECIMAL } from 'config/index'
 import CardValue from './CardValue'
 import CardBusdValue from './CardBusdValue'
 

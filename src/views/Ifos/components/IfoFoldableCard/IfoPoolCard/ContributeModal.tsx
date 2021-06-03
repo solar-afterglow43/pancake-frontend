@@ -10,7 +10,7 @@ import { getBalanceNumber, formatNumber } from 'utils/formatBalance'
 import { getAddress } from 'utils/addressHelpers'
 import ApproveConfirmButtons from 'views/Profile/components/ApproveConfirmButtons'
 import useApproveConfirmTransaction from 'hooks/useApproveConfirmTransaction'
-import { DEFAULT_TOKEN_DECIMAL } from 'config'
+import { DEFAULT_TOKEN_DECIMAL } from 'config/index'
 import { useERC20 } from 'hooks/useContract'
 import { BIG_NINE, BIG_TEN } from 'utils/bigNumber'
 

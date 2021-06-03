@@ -4,7 +4,7 @@ import { useTranslation } from 'contexts/Localization'
 import Balance from 'components/Balance'
 import ApyCalculatorModal from 'components/ApyCalculatorModal'
 import { Pool } from 'state/types'
-import { BASE_EXCHANGE_URL } from 'config'
+import { BASE_EXCHANGE_URL } from 'config/index'
 import { getAprData } from 'views/Pools/helpers'
 
 interface AprRowProps {
